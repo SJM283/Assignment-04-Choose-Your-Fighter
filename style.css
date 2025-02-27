@@ -1,0 +1,34 @@
+body {
+  background-color: #545454;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+#thumbnailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#thumbnailContainer img {
+  width: 150px; /* Adjust size */
+  height: auto;
+  border: 2px solid red; /* Helps visualize */
+  cursor: pointer;
+}
+
+#backgroundImage {
+  width: 100vw; /* Adjust size */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#backgroundImage h1 {
+  color: #ffffff;
+}
