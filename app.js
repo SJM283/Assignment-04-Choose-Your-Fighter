@@ -6,29 +6,29 @@ const audioContainer = document.getElementById("audioContainer");
 
 const fighters = [
   {
-    src: "/images/BB.webp",
+    src: "./images/BB.webp",
     alt: "Battle-Beast",
-    audio: "/audio/deep.mp3",
+    audio: "./audio/deep.mp3",
   },
   {
-    src: "/images/DV.jpg",
+    src: "./images/DV.jpg",
     alt: "Darth-Vader",
-    audio: "/audio/deep.mp3",
+    audio: "./audio/deep.mp3",
   },
   {
-    src: "/images/GL.avif",
+    src: "./images/GL.avif",
     alt: "Green-Lantern",
-    audio: "/audio/deep.mp3",
+    audio: "./audio/deep.mp3",
   },
   {
-    src: "/images/KS.avif",
+    src: "./images/KS.avif",
     alt: "Kratos",
-    audio: "/audio/deep.mp3",
+    audio: "./audio/deep.mp3",
   },
   {
-    src: "/images/MO.avif",
+    src: "./images/MO.avif",
     alt: "Magneto",
-    audio: "/audio/deep.mp3",
+    audio: "./audio/deep.mp3",
   },
 ];
 
